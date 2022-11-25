@@ -1,0 +1,156 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+body {
+    margin : 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display : flex;
+    align-items : center;
+    justify-content: space-between;
+    background-color:darkgray;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.navbar .logo span{
+    color: black;
+    font-size: 25px;
+}
+.navbar .links {
+    display: flex;
+    font-size: large;
+}
+
+.navbar .link {
+    margin-left: 13px;
+    font-weight: bold;
+}
+
+.navbar .link:hover {
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+}
+
+
+.first {
+    background-color:rgb(226, 226, 226);
+    height: 71%;
+    text-align: center;
+}
+
+.first .title {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.first .title .main-title {
+    font-size: 50px;
+
+}
+
+.first .title p {
+    margin-top: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.hijibiji {
+    background-color: #c5c5c5;
+}
+form {
+    width: 400px;
+    margin: auto;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+  }
+  
+input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+  }
+  #s1{
+    border-radius: 5px;
+  }
+  #s2{
+    border-radius: 5px;
+}
+.search {
+    width: 75%;
+  }
+  
+.submit {
+    width: 70px;
+    background-color: #6d6d6d;
+    color: #ffffff;
+  }
+
+.social {
+    display: flex;
+    background-color: #d3d3d3;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.social .links {
+    display: flex;
+    font-size: large;
+}
+
+.social .link {
+    margin-left: 15px;
+}
+
+.social .link:hover {
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(204, 204, 204);
+    padding: 25px 0px;
+}
+.footer p {
+    margin: 0px;
+    text-align: center;
+}
+/* services */
+.services {
+	/* display: flex; */
+	text-align: center;
+	gap: 40px;
+	padding: 80px 50px;
+}
+.services img {
+	height: 150px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.services .l1{
+    display: flex;
+    justify-content: center;
+}
+.services .l2{
+    display: flex;
+    justify-content: center;
+}
